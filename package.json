@@ -1,0 +1,16 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "A realtime chat app built using NodeJS Express, Apollo GQL, and React/NEXT.js",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker-compose up -d",
+    "postup": "npm run dev",
+    "stop": "docker-compose stop",
+    "down": "docker-compose down",
+    "dev": "npm run --prefix api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
